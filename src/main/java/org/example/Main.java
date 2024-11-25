@@ -44,9 +44,9 @@ public class Main {
                 "მინიმუმ 13 და მაქსიმუმ 19. მეთოდმა დაბეჭდოს “False” თუ\n" +
                 "არც ერთი პარამეტრი არ იქნება 13 - 19 დიაპაზონში → \n\nპასუხი:");
 
-        hasTeen.hasTeen(12, 15, 22);  // Output: True
-        hasTeen.hasTeen(10, 20, 25);  // Output: False
-        hasTeen.hasTeen(13, 19, 7);   // Output: True
+        hasTeen.hasTeen(12, 15, 22);  // True
+        hasTeen.hasTeen(10, 20, 25);  // False
+        hasTeen.hasTeen(13, 19, 7);   // True
     }
 
 }
